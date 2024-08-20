@@ -1,0 +1,103 @@
+body{
+  margin:0; 
+ padding: 0;
+}
+header{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color:black;
+  color:white;
+  align-items: center;
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+}
+nav ul li{
+  margin-right: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color:white;
+  background-color: black;
+  font-size: large;
+  padding: 5px;
+}
+.hero{
+  background-image:linear-gradient(rgb(201, 49, 201),rgb(52, 52, 233));
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:black;
+}
+.hero p{
+  color: white;
+  text-align: center;
+  font-size: large;
+  border-radius: 10px;
+}
+.frontend{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(53, 52, 52);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight:bold;
+  font-size: large;  
+}
+.html{
+  background-image:radial-gradient(rgb(248, 229, 56), rgb(243, 93, 7));
+}
+.css{
+  background-image:radial-gradient(rgb(189, 221, 236),rgb(4, 119, 196));
+}
+.js{
+  background-image:radial-gradient(rgb(243, 243, 101),rgb(235, 201, 10)) ;
+}
+.backend{
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size:large;
+  font-weight:bold;
+  background-color: rgb(53, 52, 52);
+}
+.python{
+  background-image:radial-gradient(rgb(241, 238, 28),rgb(30, 113, 236));
+}
+.php{
+  background-image:radial-gradient(rgb(222, 221, 228),rgb(53, 53, 250));
+}
+.nodejs{
+  background-image:radial-gradient(rgb(202, 248, 76),green);
+}
+.database{
+  text-decoration: none;
+  color: white;
+background-color: rgb(53, 52, 52);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight:bold;
+  font-size: large;
+}
+.mongodb{
+  background-image:radial-gradient(rgb(99, 206, 99),darkgreen);
+}
+.mysql{
+  background-image:radial-gradient(rgb(238, 174, 56),rgb(28, 28, 226));
+}
+  footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
